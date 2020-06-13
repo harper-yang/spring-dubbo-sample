@@ -18,6 +18,8 @@
     <properties>
         <java.version>1.8</java.version>
         <spring.dubbo.sample.version>0.0.1-SNAPSHOT</spring.dubbo.sample.version>
+        <dubbo.spring.boot.starter.version>2.7.6</dubbo.spring.boot.starter.version>
+        <lombok.version>1.18.8</lombok.version>
     </properties>
 
     <modules>
