@@ -20,10 +20,15 @@
         <spring.dubbo.sample.version>0.0.1-SNAPSHOT</spring.dubbo.sample.version>
         <dubbo.spring.boot.starter.version>2.7.6</dubbo.spring.boot.starter.version>
         <lombok.version>1.18.8</lombok.version>
+        <spring.cloud.dependencies.version>Greenwich.SR2</spring.cloud.dependencies.version>
+        <spring.boot.version>2.2.1.RELEASE</spring.boot.version>
+        <spring.cloud.alibaba.version>2.2.1.RELEASE</spring.cloud.alibaba.version>
     </properties>
+
 
     <modules>
         <module>user-service</module>
+        <module>order-service</module>
     </modules>
 
     <distributionManagement>

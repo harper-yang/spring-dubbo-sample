@@ -1,0 +1,14 @@
+dubbo:
+  cloud:
+    subscribed-services: spring-cloud-nacos-sample
+  scan:
+    base-packages: harper.github.io
+  registry:
+    address: spring-cloud://152.136.119.254
+spring:
+  application:
+    name: spring-cloud-nacos-sample-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://152.136.119.254:8848
